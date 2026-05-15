@@ -1,0 +1,8 @@
+[meta]
+version = "000"
+description = "INSTALL TESTING"
+name = "INSTALLTEST"
+[package]
+source = "https://github.com/mildly-kelpish/kelpkg"
+command = "nimble build -D:ssl"
+finbin = "kelpk_g"
